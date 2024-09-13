@@ -1,6 +1,6 @@
 from datetime import datetime
 from itsdangerous import TimedSerializer as Serializer
-from flaskblog import db, login_manager, app
+from proj import db, login_manager, app
 from flask_login import UserMixin
 
 
